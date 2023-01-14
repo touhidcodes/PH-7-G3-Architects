@@ -3,9 +3,9 @@
 }
 /* Header Section */
 header {
-  height: 1090px;
+  height: 1150px;
   background: rgba(255, 144, 14, 0.1);
-  padding: 50px 200px;
+  padding: 50px 150px;
 }
 nav {
   display: flex;
@@ -69,15 +69,18 @@ nav ul li a {
   width: 100%;
 }
 /* Main Section */
-/* Features Section */
-.features-container {
-  padding: 85px 200px;
+main {
+  padding: 0px 150px;
+}
+/* Features Heading Section */
+.features-heading-container {
+  padding: 85px 20px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
   align-items: center;
 }
-.features-img {
+.features-heading-img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
@@ -89,7 +92,7 @@ nav ul li a {
 .team img {
   width: 100%;
 }
-.features-description h2 {
+.features-heading-description h2 {
   font-family: "Work Sans";
   font-size: 45px;
 }
@@ -105,11 +108,89 @@ nav ul li a {
   font-weight: 700;
   color: #ff900e;
 }
-.features-description p {
+.features-heading-description p {
   font-family: "Work Sans";
   font-weight: 400;
   font-size: 16px;
   color: #727272;
   margin-top: 24px;
   margin-bottom: 32px;
+}
+/* Features Section */
+.features {
+  margin-top: 45px;
+  margin-bottom: 130px;
+}
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  font-family: "Work Sans";
+}
+.features-container h2 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+.features-container p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-top: 24px;
+}
+.features-list-container {
+  margin-top: 20px;
+}
+.feature-list {
+  width: 470px;
+  height: 100px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-top: 30px;
+  padding: 20px;
+}
+.feature-list h4 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+}
+.feature-list p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-top: 10px;
+}
+.features-img {
+  width: 608px;
+  height: 900px;
+}
+.features-img img {
+  width: 100%;
+}
+.features-btn {
+  width: 342px;
+  height: 200px;
+  font-family: "Work Sans";
+  text-align: center;
+  margin-left: -70px;
+  margin-top: -100px;
+}
+.features-btn button {
+  background: #ff900e;
+  border-radius: 8px;
+  border: 0;
+  padding: 36px;
+}
+.features-btn h1 {
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
+}
+.features-btn h3 {
+  font-weight: 500;
+  font-size: 25px;
+  color: #ffffff;
 }
