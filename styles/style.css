@@ -268,3 +268,20 @@ main {
   grid-template-columns: repeat(5, 1fr);
   gap: 100px;
 }
+/* Footer Section */
+.footer {
+  height: 100px;
+  width: 100%;
+  background: #fff4e7;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 250px;
+}
+.footer p {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 20px;
+  color: #424242;
+}
