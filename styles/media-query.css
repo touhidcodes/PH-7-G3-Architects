@@ -11,6 +11,7 @@
   }
   header {
     padding: 50px 0;
+    height: 855px;
   }
   nav h2,
   .header-description h1 {
@@ -30,5 +31,17 @@
   }
   nav ul li {
     padding: 0;
+  }
+  .features-heading-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .features-heading-img {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    margin: auto;
+  }
+  .features-heading-description p {
+    width: 100%;
   }
 }
