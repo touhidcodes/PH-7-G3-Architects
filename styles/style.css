@@ -3,7 +3,7 @@
 }
 /* Header Section */
 header {
-  height: 1322px;
+  height: 1040px;
   background: rgba(255, 144, 14, 0.1);
   padding: 50px 240px;
 }
@@ -31,4 +31,40 @@ nav ul li a {
   font-weight: 500;
   font-size: 18px;
   color: #424242;
+}
+.header-description {
+  width: 862px;
+  text-align: center;
+  margin: auto;
+  margin-top: 116px;
+  margin-bottom: 50px;
+}
+.header-description h1 {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 64px;
+  color: #131313;
+}
+.header-description p {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  padding: 32px 0;
+}
+.header-btn {
+  width: 180px;
+  height: 64px;
+  background: #ff900e;
+  border-radius: 8px;
+  border: 0;
+}
+.header-btn h4 {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+}
+.header-image img {
+  width: 100%;
 }
