@@ -194,3 +194,49 @@ main {
   font-size: 25px;
   color: #ffffff;
 }
+/* Some Facts Section */
+.some-facts {
+  margin-bottom: 150px;
+}
+.some-facts-container {
+  font-family: "Work Sans";
+}
+.some-facts-container h2 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.some-facts-container p {
+  width: 542px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-top: 24px;
+  margin-bottom: 100px;
+}
+.facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 75px;
+  text-align: center;
+}
+.fact {
+  width: 180px;
+  height: 170px;
+  border: 3px solid #ff900e;
+  border-radius: 8px;
+  padding: 40px 30px;
+  /* transform: rotate(90deg); */
+}
+.fact h1 {
+  font-weight: 600;
+  font-size: 45px;
+  color: #424242;
+  margin-top: 10px;
+}
+.fact h4 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+  margin-top: 5px;
+}
