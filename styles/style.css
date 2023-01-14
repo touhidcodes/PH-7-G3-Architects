@@ -144,12 +144,12 @@ main {
   margin-top: 20px;
 }
 .feature-list {
-  width: 470px;
+  width: 440px;
   height: 100px;
   background: #ffffff;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
   border-radius: 8px;
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 20px;
 }
 .feature-list h4 {
@@ -164,7 +164,7 @@ main {
   margin-top: 10px;
 }
 .features-img {
-  width: 608px;
+  width: 520px;
   height: 900px;
 }
 .features-img img {
@@ -175,8 +175,8 @@ main {
   height: 200px;
   font-family: "Work Sans";
   text-align: center;
-  margin-left: -70px;
-  margin-top: -100px;
+  margin-left: -75px;
+  margin-top: -75px;
 }
 .features-btn button {
   background: #ff900e;
@@ -221,7 +221,7 @@ main {
   text-align: center;
 }
 .fact {
-  width: 180px;
+  width: 140px;
   height: 170px;
   border: 3px solid #ff900e;
   border-radius: 8px;
@@ -295,8 +295,8 @@ main {
   border-radius: 8px;
 }
 .service img {
-  width: 342px;
-  height: 250px;
+  width: 285px;
+  height: 200px;
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -322,7 +322,8 @@ main {
 .sponsor-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 100px;
+  gap: 50px;
+  padding-top: 50px;
 }
 /* Footer Section */
 .footer {
