@@ -240,3 +240,31 @@ main {
   color: #727272;
   margin-top: 5px;
 }
+/* Sponsors Section */
+.sponsors {
+  font-family: "Work Sans";
+  margin-bottom: 130px;
+}
+.sponsors-description {
+  text-align: center;
+}
+.sponsors-description h1 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.sponsors-description p {
+  width: 542px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin: auto;
+  margin-top: 24;
+  margin-bottom: 50px;
+}
+/* Sponsors Section */
+.sponsor-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 100px;
+}
