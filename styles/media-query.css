@@ -17,7 +17,9 @@
   .header-description h1 {
     font-size: 30px;
   }
-  .header-description {
+  .header-description,
+  .features-list-container h2,
+  .features-list-container p {
     width: 100%;
   }
   nav {
@@ -43,5 +45,62 @@
   }
   .features-heading-description p {
     width: 100%;
+  }
+  .features-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .features-img {
+    width: 300px;
+    height: 700px;
+    margin: auto;
+  }
+  .features {
+    margin: auto;
+  }
+  .features-list-container h2,
+  .features-list-container p,
+  .some-facts-container h2,
+  .some-facts-container p,
+  .sponsors p {
+    width: 300px;
+  }
+  .features-list-container p,
+  .some-facts-container h2,
+  .some-facts-container p,
+  .sponsors {
+    padding-left: 20px;
+  }
+  .feature-list {
+    width: 350px;
+    height: 130px;
+  }
+  .features-btn {
+    padding-top: 40px;
+    margin: auto;
+  }
+  .features-btn button {
+    padding: 20px;
+  }
+  .facts {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+  .some-facts-container {
+    justify-content: center;
+    width: 140px;
+  }
+  .fact {
+    margin-left: 50px;
+  }
+  .services-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .sponsor-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+  }
+  .footer {
+    width: 300px;
+    margin: auto;
   }
 }
