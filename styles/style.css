@@ -377,6 +377,7 @@ main {
   .features-heading-container {
     grid-template-columns: repeat(1, 1fr);
     gap: 50px;
+    margin-top: 100px;
   }
   .features-heading-img {
     grid-template-columns: repeat(1, 1fr);
@@ -398,8 +399,8 @@ main {
     margin: auto;
   }
   .features-img {
-    width: 450px;
-    height: 700px;
+    width: 100%;
+    height: 590px;
     margin: auto;
     padding-top: 100px;
   }
@@ -432,6 +433,7 @@ main {
   .features-btn {
     padding-top: 40px;
     margin: auto;
+    width: auto;
   }
   .features-btn button {
     padding: 5px;
@@ -507,6 +509,7 @@ main {
   .features-heading-container {
     grid-template-columns: repeat(1, 1fr);
     gap: 50px;
+    margin-top: 250px;
   }
   .features-heading-img {
     grid-template-columns: repeat(1, 1fr);
